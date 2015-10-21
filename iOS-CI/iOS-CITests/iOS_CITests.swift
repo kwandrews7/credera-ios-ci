@@ -1,8 +1,8 @@
 //
 //  iOS_CITests.swift
-//  iOS CITests
+//  iOS-CITests
 //
-//  Created by Kyle Andrews on 10/9/15.
+//  Created by Kyle Andrews on 10/21/15.
 //  Copyright © 2015 Credera. All rights reserved.
 //
 

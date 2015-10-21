@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:/Users/kyleandrews/Documents/personalProjects/credera-ios-ci/iOS CI/iOS-CI.xcodeproj">
+      location = "self:iOS-CI.xcodeproj">
    </FileRef>
 </Workspace>
