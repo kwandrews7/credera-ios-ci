@@ -34,17 +34,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		FBF66ABD1BC8378F0096655F /* iOS CI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS CI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBF66ABD1BC8378F0096655F /* iOS-CI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-CI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBF66AC01BC8378F0096655F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FBF66AC21BC8378F0096655F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FBF66AC51BC8378F0096655F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FBF66AC71BC8378F0096655F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FBF66ACA1BC8378F0096655F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FBF66ACC1BC8378F0096655F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FBF66AD11BC8378F0096655F /* iOS CITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS CITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBF66AD11BC8378F0096655F /* iOS-CI.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS-CI.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBF66AD51BC8378F0096655F /* iOS_CITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_CITests.swift; sourceTree = "<group>"; };
 		FBF66AD71BC8378F0096655F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FBF66ADC1BC8378F0096655F /* iOS CIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS CIUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBF66ADC1BC8378F0096655F /* iOS-CI.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS-CI.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBF66AE01BC8378F0096655F /* iOS_CIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_CIUITests.swift; sourceTree = "<group>"; };
 		FBF66AE21BC8378F0096655F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -87,9 +87,9 @@
 		FBF66ABE1BC8378F0096655F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FBF66ABD1BC8378F0096655F /* iOS CI.app */,
-				FBF66AD11BC8378F0096655F /* iOS CITests.xctest */,
-				FBF66ADC1BC8378F0096655F /* iOS CIUITests.xctest */,
+				FBF66ABD1BC8378F0096655F /* iOS-CI.app */,
+				FBF66AD11BC8378F0096655F /* iOS-CI.xctest */,
+				FBF66ADC1BC8378F0096655F /* iOS-CI.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -128,9 +128,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FBF66ABC1BC8378F0096655F /* iOS CI */ = {
+		FBF66ABC1BC8378F0096655F /* iOS-CI */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FBF66AE51BC8378F0096655F /* Build configuration list for PBXNativeTarget "iOS CI" */;
+			buildConfigurationList = FBF66AE51BC8378F0096655F /* Build configuration list for PBXNativeTarget "iOS-CI" */;
 			buildPhases = (
 				FBF66AB91BC8378F0096655F /* Sources */,
 				FBF66ABA1BC8378F0096655F /* Frameworks */,
@@ -140,14 +140,14 @@
 			);
 			dependencies = (
 			);
-			name = "iOS CI";
+			name = "iOS-CI";
 			productName = "iOS CI";
-			productReference = FBF66ABD1BC8378F0096655F /* iOS CI.app */;
+			productReference = FBF66ABD1BC8378F0096655F /* iOS-CI.app */;
 			productType = "com.apple.product-type.application";
 		};
-		FBF66AD01BC8378F0096655F /* iOS CITests */ = {
+		FBF66AD01BC8378F0096655F /* iOS-CITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FBF66AE81BC8378F0096655F /* Build configuration list for PBXNativeTarget "iOS CITests" */;
+			buildConfigurationList = FBF66AE81BC8378F0096655F /* Build configuration list for PBXNativeTarget "iOS-CITests" */;
 			buildPhases = (
 				FBF66ACD1BC8378F0096655F /* Sources */,
 				FBF66ACE1BC8378F0096655F /* Frameworks */,
@@ -158,14 +158,14 @@
 			dependencies = (
 				FBF66AD31BC8378F0096655F /* PBXTargetDependency */,
 			);
-			name = "iOS CITests";
+			name = "iOS-CITests";
 			productName = "iOS CITests";
-			productReference = FBF66AD11BC8378F0096655F /* iOS CITests.xctest */;
+			productReference = FBF66AD11BC8378F0096655F /* iOS-CI.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		FBF66ADB1BC8378F0096655F /* iOS CIUITests */ = {
+		FBF66ADB1BC8378F0096655F /* iOS-CIUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FBF66AEB1BC8378F0096655F /* Build configuration list for PBXNativeTarget "iOS CIUITests" */;
+			buildConfigurationList = FBF66AEB1BC8378F0096655F /* Build configuration list for PBXNativeTarget "iOS-CIUITests" */;
 			buildPhases = (
 				FBF66AD81BC8378F0096655F /* Sources */,
 				FBF66AD91BC8378F0096655F /* Frameworks */,
@@ -176,9 +176,9 @@
 			dependencies = (
 				FBF66ADE1BC8378F0096655F /* PBXTargetDependency */,
 			);
-			name = "iOS CIUITests";
+			name = "iOS-CIUITests";
 			productName = "iOS CIUITests";
-			productReference = FBF66ADC1BC8378F0096655F /* iOS CIUITests.xctest */;
+			productReference = FBF66ADC1BC8378F0096655F /* iOS-CI.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -192,6 +192,7 @@
 				TargetAttributes = {
 					FBF66ABC1BC8378F0096655F = {
 						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = 3MVGFZ2T29;
 					};
 					FBF66AD01BC8378F0096655F = {
 						CreatedOnToolsVersion = 7.0.1;
@@ -203,7 +204,7 @@
 					};
 				};
 			};
-			buildConfigurationList = FBF66AB81BC8378F0096655F /* Build configuration list for PBXProject "iOS CI" */;
+			buildConfigurationList = FBF66AB81BC8378F0096655F /* Build configuration list for PBXProject "iOS-CI" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -216,9 +217,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FBF66ABC1BC8378F0096655F /* iOS CI */,
-				FBF66AD01BC8378F0096655F /* iOS CITests */,
-				FBF66ADB1BC8378F0096655F /* iOS CIUITests */,
+				FBF66ABC1BC8378F0096655F /* iOS-CI */,
+				FBF66AD01BC8378F0096655F /* iOS-CITests */,
+				FBF66ADB1BC8378F0096655F /* iOS-CIUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -281,12 +282,12 @@
 /* Begin PBXTargetDependency section */
 		FBF66AD31BC8378F0096655F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = FBF66ABC1BC8378F0096655F /* iOS CI */;
+			target = FBF66ABC1BC8378F0096655F /* iOS-CI */;
 			targetProxy = FBF66AD21BC8378F0096655F /* PBXContainerItemProxy */;
 		};
 		FBF66ADE1BC8378F0096655F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = FBF66ABC1BC8378F0096655F /* iOS CI */;
+			target = FBF66ABC1BC8378F0096655F /* iOS-CI */;
 			targetProxy = FBF66ADD1BC8378F0096655F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -398,10 +399,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "iOS CI/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.credera.test.iOS-CI";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "iOS-CI";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -409,10 +413,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "iOS CI/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.credera.test.iOS-CI";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "iOS-CI";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -423,8 +430,8 @@
 				INFOPLIST_FILE = "iOS CITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.credera.test.iOS-CITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS CI.app/iOS CI";
+				PRODUCT_NAME = "iOS-CI";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS-CI.app/iOS-CI";
 			};
 			name = Debug;
 		};
@@ -435,8 +442,8 @@
 				INFOPLIST_FILE = "iOS CITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.credera.test.iOS-CITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS CI.app/iOS CI";
+				PRODUCT_NAME = "iOS-CI";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS-CI.app/iOS-CI";
 			};
 			name = Release;
 		};
@@ -446,7 +453,7 @@
 				INFOPLIST_FILE = "iOS CIUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.credera.test.iOS-CIUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "iOS-CI";
 				TEST_TARGET_NAME = "iOS CI";
 				USES_XCTRUNNER = YES;
 			};
@@ -458,7 +465,7 @@
 				INFOPLIST_FILE = "iOS CIUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.credera.test.iOS-CIUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "iOS-CI";
 				TEST_TARGET_NAME = "iOS CI";
 				USES_XCTRUNNER = YES;
 			};
@@ -467,7 +474,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FBF66AB81BC8378F0096655F /* Build configuration list for PBXProject "iOS CI" */ = {
+		FBF66AB81BC8378F0096655F /* Build configuration list for PBXProject "iOS-CI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FBF66AE31BC8378F0096655F /* Debug */,
@@ -476,29 +483,32 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FBF66AE51BC8378F0096655F /* Build configuration list for PBXNativeTarget "iOS CI" */ = {
+		FBF66AE51BC8378F0096655F /* Build configuration list for PBXNativeTarget "iOS-CI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FBF66AE61BC8378F0096655F /* Debug */,
 				FBF66AE71BC8378F0096655F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		FBF66AE81BC8378F0096655F /* Build configuration list for PBXNativeTarget "iOS CITests" */ = {
+		FBF66AE81BC8378F0096655F /* Build configuration list for PBXNativeTarget "iOS-CITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FBF66AE91BC8378F0096655F /* Debug */,
 				FBF66AEA1BC8378F0096655F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		FBF66AEB1BC8378F0096655F /* Build configuration list for PBXNativeTarget "iOS CIUITests" */ = {
+		FBF66AEB1BC8378F0096655F /* Build configuration list for PBXNativeTarget "iOS-CIUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FBF66AEC1BC8378F0096655F /* Debug */,
 				FBF66AED1BC8378F0096655F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
